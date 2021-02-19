@@ -15,8 +15,8 @@ export default function MemoCreateScreen(props) {
       </View>
       <CircleButton
         name="check"
-        onPress={() => {navigation.goBack();}}
-        />
+        onPress={() => { navigation.goBack(); }}
+      />
     </KeyboardSafeView>
   );
 }
